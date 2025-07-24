@@ -104,28 +104,73 @@
 
 // 8
 
-// function calculateVolume(cube) {
-//   cube.volume = cube.side ** 3;
-//   return cube;
+// const cube = {
+//     side: 4
 // }
+// function calculateVolume(cube) {
+//     cube.Volume = cube.side ** 3;
+//     console.log(cube);
 
-// console.log(calculateVolume({ side: 4 }));
+// }
+// calculateVolume(cube);
 
 // 9
 
-// function isPasswordStrong(user) {
-//   user.isStrong = user.password.length > 8;
-//   return user;
+// const user1 = {
+//     username: "test",
+//     password: "12345678",
+//     isStrong: true
 // }
 
-// console.log(isPasswordStrong({ username: "test", password: "907786789" }));
+// function isPasswordStrong(user1) {
+//     if (user1.password.length >= 8) {
+//         return isStrong = true;
+//     } else {
+//         return isStrong = false;
+//     }
 
-// 10
+// }
+
+// console.log(isPasswordStrong(user1));
+
+
+
+
+// 10.
+// const person = {
+//     name: "Ali",
+//     age: 20
+// }
+
+// const currentYear = 2025;
+
 
 // function calculateBirthYear(person) {
-//   person.birthYear = 2025 - person.age;
-//   return person;
+//     person.birthYear = currentYear - person.age;
+//     console.log(person);
+
 // }
 
-// console.log(calculateBirthYear({ name: "Laylo", age: 20 }));
+// calculateBirthYear(person);
 
+
+
+// 1
+
+// const user = {
+//     name:  "Ulug'bek",
+//     age: 20
+
+// }
+
+// function updateUser(user) {
+//     if (Object.isFrozen(user)){
+//         console.log("Object is frozen");
+//     }else{
+//         console.log("Not frozen");
+        
+//     }
+
+// }
+
+// updateUser(user)
