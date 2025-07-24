@@ -1,53 +1,106 @@
-// 1
+// 1.   
+
+// const user = {
+//     name: "Ali",
+//     age: 25
+// }
 
 // function getUserInfo(user) {
-//   return `Foydalanuvchi ismi: ${user.name}, yoshi: ${user.age}`;
+//     console.log(`Foydalanuvchi ismi: ${user.name}, yoshi: ${user.age} yosh`);
+
+
 // }
-// console.log(getUserInfo({ name: "Ali", age: 25 }));
+// getUserInfo(user);
 
 
-// 2
+
+// 2.  
+
+// const product = {
+//     name: "Telefon",
+//     price: 1000
+// }
+
+// product.priceWithTaxi = product.price + product.price * 12 / 100;
+
 
 // function addTax(product) {
-//   product.priceWithTax = product.price * 1.12;
-//   return product;
+//     console.log(product);
+
 // }
+// addTax(product);
 
-// console.log(addTax({ name: "Telefon", price: 1000 }));
 
-// 4
+
+// 4.  
+
+// const car = {
+//     model: "Cobalt",
+//     year: 2022,
+//     color: "oq"
+// }
 
 // function carInfo(car) {
-//   return `Bu ${car.color} rangli ${car.model}, ${car.year}-yil`;
+//     console.log(`Bu ${car.color} rangli ${car.model}. ${car.year}-yil`);
+
 // }
-// console.log(carInfo({ model: "Cobalt", year: 2022, color: "oq" }));
+// carInfo(car)
 
 
-// 5
+// 5  
 
-// function hasEmail(user) {
-//   return user.email ? true : false;
+// const userr = {
+//     name: "Ali",
+//     email: "ali@gmail.com"
 // }
-// console.log(hasEmail({ name: "Ali", email: "ali@gmail.com" })); 
-// console.log(hasEmail({ name: "Ali" })); 
+
+// function hasEmail(obj, key) {
+//     if (key in obj) {
+//         return true;
+//     } else {
+//         return false
+//     }
+
+// }
+// console.log(hasEmail(userr, "email"));
 
 // 6
 
-// function calculateSpeed(car) {
-//   car.speed = car.distance / car.time;
-//   return car;
+// const car = {
+//     model:"Cobalt",
+//     distance:150,
+//     time: 3
+
 // }
 
-// console.log(calculateSpeed({ model: "Cobalt", distance: 150, time: 3 }));
+
+// function calculateSpeed(car) {
+//     car.speed = car.distance / car.time;
+//     return car;
+    
+    
+// }
+
+// console.log(calculateSpeed(car));
+
 
 // 7
 
-// function calculateWorkTime(worker) {
-//   worker.hoursWorked = worker.end - worker.start;
-//   return worker;
+// const worker = {
+//     name:"Ali",
+//     start:9,
+//     end: 18
+
 // }
 
-// console.log(calculateWorkTime({ name: "Ali", start: 9, end: 18 }));
+// function calculateWorkTime(worker) {
+//   worker.hoursWorked = worker.end - worker.start;
+//     return worker;
+    
+// }
+
+// console.log(calculateWorkTime(worker));
+
 
 // 8
 
